@@ -32,7 +32,15 @@ const handleUserInput =  (key) => {
   }
   if (key === 'd') {
   connection.write("Move: right");
-
+  }
+  if (key === 'g') {
+    connection.write("Say: get eaten");
+  } 
+  if (key === 'b') {
+      connection.write("Say: better luck nextTime");
+  }
+  if (key === 'l') {
+    connection.write("Say: LOL");
   }
 }
 
